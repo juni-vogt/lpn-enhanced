@@ -1,4 +1,4 @@
-# Learn Prolog Now! enhanced
+# Learn Prolog Now! enhanced (Chrome)
 
 Chrome Extension to make Learn Prolog Now! pretty.
 
