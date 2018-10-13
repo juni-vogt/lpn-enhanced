@@ -8,21 +8,21 @@ Sorry.
 */
 
 body  {
-    font: 16px Open Sans, Helevtica, sans-serif;
+	font: 16px Open Sans, Helevtica, sans-serif;
 	padding: 0;
 	margin: 0;
 }
 
 /* annoying bg */
 div.content {
-    background-image: url(testing-version.png);
-    background-size: 6em !important;
-    background-position: calc(100% - 4em) 2em ;
-    background-repeat: no-repeat;
+	background-image: url(testing-version.png);
+	background-size: 6em !important;
+	background-position: calc(100% - 4em) 2em ;
+	background-repeat: no-repeat;
 }
 
 .coloredbar *, .lpnheader *, .authorbar *, .navbar *, .foot *, .content {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif !important;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif !important;
 }
 
 h3  {
@@ -127,7 +127,7 @@ div.query, pre.query {
 	padding-left: 14.2em !important;
 	background: #f0f0f0 !important;
 	padding-top: 3em !important;
-    margin: -6px -2px 0px -2px !important;
+	margin: -6px -2px 0px -2px !important;
 }
 .authorbar {
 	width: 26em;
@@ -161,25 +161,25 @@ a:hover {
 	margin-left: 2.2em;
 }
 .chapterToc {
-    margin-top: 0.8em;
-    display: inline-block;
+	margin-top: 0.8em;
+	display: inline-block;
 }
 .chapterToc ~ .sectionToc {
 	margin-left: .5em
 }
 
 li {
-    padding-left: 0.3em;
-    margin-left: -0.3em;
+	padding-left: 0.3em;
+	margin-left: -0.3em;
 }
 .content ol, .content ul {
-    margin: 0;
+	margin: 0;
 
-    padding: 0;
-    line-height: 2;
+	padding: 0;
+	line-height: 2;
 }
 .content ol:not(.query-list) {
-    list-style-type: lower-roman;
+	list-style-type: lower-roman;
 }
 h4, h5, h6 {
 	font-weight: 600;
@@ -189,7 +189,7 @@ h4, h5, h6 {
 	padding-right: 1em;
 }
 .crosslinks {
-    font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 .sectionTOCS {
@@ -203,7 +203,7 @@ h4, h5, h6 {
 		#f22, #f2f, #22f, #2ff,
 		#2f2, #2f2, #d4d400, #f22
 	);
-	/*             ^ #ff2 is unreadable */
+	/*			 ^ #ff2 is unreadable */
 	color:transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
