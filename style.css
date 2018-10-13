@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+/*
+Dear reader,
+this code is about as readable/maintainable as the source of the website.
+Sorry.
+*/
+
+body  {
+    font: 16px Open Sans, Helevtica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/* annoying bg */
+div.content {
+    background-image: url(testing-version.png);
+    background-size: 6em !important;
+    background-position: calc(100% - 4em) 2em ;
+    background-repeat: no-repeat;
+}
+
+.coloredbar *, .lpnheader *, .authorbar *, .navbar *, .foot *, .content {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+h3  {
+	font-weight: normal;
+	font-size: 1.5em;
+	margin: 1.5em 0 1em 0;
+}
+
+h4  {
+	font-weight: normal;
+	font-size: 1.25em;
+	margin: 2em 0 1em 0;
+}
+
+
+.verbatim, .highlight, .fancyvrb, .query {
+	padding: 0.6em 0.4em !important
+}
+.verbatim, .highlight, .fancyvrb {
+	background: #f4f4f4;
+	display: inline-block !important;
+	width: auto !important;
+	padding: 0.6em 1em !important
+}
+.query {
+	white-space: pre !important;
+	padding: 0.01em .9em !important;
+	background: #efefef;
+	box-sizing: border-box;
+	display: block !important;
+	white-space: normal;
+}
+div.query, pre.query {
+	border-left: solid 1.2px #999;
+	margin: .5em 0 !important;
+}
+
+.query, .verbatim, .highlight, .fancyvrb, pre {
+	font-family:  "Fira Mono", monospace !important;
+	font-size: inherit !important;
+
+	margin: 0 !important;
+	border-radius: .4em !important;
+}
+.swish.query {
+	padding: 0 !important;
+	margin: .5em 0 .5em !important;
+}
+
+.content {
+	font-size: 18px !important;
+	margin-left: 18em !important;
+	line-height: 1.7;
+}
+.content p, .content h4, .content pre, .content ul, .content ol {
+	max-width: 44em;
+}
+.content .source {
+	max-width: 52em;
+}
+
+.source  {
+	margin: 0 !important;
+	transition: max-width .2s, min-height .2s;
+	border-color: #cfcfcf !important;
+}
+
+.source.ui-resizable {
+	max-width: 72em;
+	min-height: 24em;
+}
+
+.cmti-10, .verb {
+}
+.cmmi-10 {
+	color: green;
+}
+.cmti-10 {
+	/* color: #1568e4; */
+	font-style: italic;
+}
+.cmtt-10 {
+	white-space: pre;
+	/* background: #efefef; */
+	/* padding: 0.2em .2em .1em; */
+	/* margin: -0.1em; */
+	/* border-radius: .2em; */
+}
+
+.verb {
+	color: rgb(118, 44, 187);
+	font-family:  "Fira Mono", monospace !important;
+}
+
+.coloredbar {
+	font-size: .8em;
+	background: none !important;
+	display: none;
+}
+.lpnheader {
+	font-size: 1.5rem !important;
+	padding-left: 14.2em !important;
+	background: #f0f0f0 !important;
+	padding-top: 3em !important;
+    margin: -6px -2px 0px -2px !important;
+}
+.authorbar {
+	width: 26em;
+	float: right;
+	margin-top: -2.7em !important;
+	background: none !important;
+	opacity: .5;
+	font-style: italic;
+}
+.navbar {
+	background: none !important;
+	padding: 2em !important;
+	color: #444 !important;
+}
+.navbar a {
+	color: #444 !important;
+}
+
+a {
+	text-decoration: none;
+	opacity: .6;
+	transition: opacity .15s;
+}
+a:hover {
+	opacity:1;
+}
+.chapterToc a, .sectionToc a {
+	margin-left: .8em;
+}
+.likesubsectionToc {
+	margin-left: 2.2em;
+}
+.chapterToc {
+    margin-top: 0.8em;
+    display: inline-block;
+}
+.chapterToc ~ .sectionToc {
+	margin-left: .5em
+}
+
+li {
+    padding-left: 0.3em;
+    margin-left: -0.3em;
+}
+.content ol, .content ul {
+    margin: 0;
+
+    padding: 0;
+    line-height: 2;
+}
+.content ol:not(.query-list) {
+    list-style-type: lower-roman;
+}
+h4, h5, h6 {
+	font-weight: 600;
+}
+.foot {
+	text-align: right;
+	padding-right: 1em;
+}
+.crosslinks {
+    font-size: 1.2em;
+}
+
+.sectionTOCS {
+	margin-top: 1.5em;
+	margin-left: -.2em;
+}
+
+.rainbow {
+	background: linear-gradient(
+		to right,
+		#f22, #f2f, #22f, #2ff,
+		#2f2, #2f2, #d4d400, #f22
+	);
+	/*             ^ #ff2 is unreadable */
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-size: 92%;
+}
+
+div.query {
+	width: calc(100% - 1.5em) !important;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+	margin-left: 1.5em !important;
+}
+
+
+.guessed {
+	/* I don't even know what this was intended to be */
+	outline: none !important;
+}
+
+.fancyvrb {
+	padding-left: .5em !important;
+}
+
+/*
+.verbatim {
+	display: inline-block !important;
+}
+.hljs {
+	padding: 0 !important;
+}
+*/
+
+.content>.source {
+	padding: 0.55em .9em !important;
+}
+
+/*
+._lpnEnhancedDoneFormatting .crosslinks a {
+	padding: 0 .28em;
+}
+*/
+
+.load {
+	top: 3.5px !important;
+	width: 42px !important;
+	height: 42px !important;
+	background-position: .5em .5em !important;
+	background-repeat: none !important;
+	background-size: calc(100% - 1em) !important;
+	padding: .5em !important;
+	box-sizing: content-box !important;
+	background-clip: content-box !important;
+	transition: background .2s;
+	margin: -.5em;
+}
+
+iframe.swish {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ui-resizable-s {
+	height: 8px !important;
+	background: rgb(132, 86, 88) !important;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.hljs {
+	color: #333 !important;
+}
+
+.enumerate1 {
+	white-space: normal !important;
+}
+
+.open-prolog .load {
+	right: -50px !important;
+}
+
+.tabular td {
+	padding-right: 1.5em;
+}

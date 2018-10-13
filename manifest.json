@@ -1,0 +1,52 @@
+{
+  "name": "Learn Prolog Now! Enhanced",
+  "version": "0.2.0",
+  "manifest_version": 2,
+  "description": "Makes \"Learn Prolog Now!\" look and feel better.",
+  "icons": {
+    "128": "icons/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.png"
+  },
+  "permissions": [
+    "http://lpn.swi-prolog.org/*",
+    "https://lpn.swi-prolog.org/*",
+    "http://learnprolognow.org/*",
+    "http://www.learnprolognow.org/*",
+    "https://learnprolognow.org/*",
+    "https://www.learnprolognow.org/*"
+  ],
+  "background": { "scripts": [ "background.js" ] },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://lpn.swi-prolog.org/*",
+        "https://lpn.swi-prolog.org/*",
+        "http://learnprolognow.org/*",
+        "http://www.learnprolognow.org/*",
+        "https://learnprolognow.org/*",
+        "https://www.learnprolognow.org/*"
+      ],
+      "css": [
+        "style.css",
+        "highlight/styles/default.css"
+      ]
+    },
+    {
+      "matches": [
+        "http://lpn.swi-prolog.org/*",
+        "https://lpn.swi-prolog.org/*",
+        "http://learnprolognow.org/*",
+        "http://www.learnprolognow.org/*",
+        "https://learnprolognow.org/*",
+        "https://www.learnprolognow.org/*"
+      ],
+      "js": [
+        "highlight/highlight.pack.js",
+        "script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
