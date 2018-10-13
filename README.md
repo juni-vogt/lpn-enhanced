@@ -1,4 +1,4 @@
-# Learn Prolog Now! enhanced (Chrome)
+# Learn Prolog Now! enhanced
 
 WebExtension to make "Learn Prolog Now!" pretty.
 
