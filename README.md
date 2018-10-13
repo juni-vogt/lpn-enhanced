@@ -14,5 +14,8 @@ https://addons.mozilla.org/de/firefox/addon/learn-prolog-now-enhanced/
 
 The interactive version is located at http://lpn.swi-prolog.org/
 
+## Contributing
+All contributions are welcome! Note that not all code is super clean. But feel free to create a pull request. :)
+
 The content quoted in the screenshot is © 2006-2012 Patrick Blackburn, Johan Bos, Kristina Striegnitz
 This is a personal project, not an official extension and not in any way endorsed by the authors of Learn Prolog Now.
