@@ -1,6 +1,6 @@
 # Learn Prolog Now! enhanced
 
-Chrome extension to make Learn Prolog Now! pretty.
+Chrome Extension to make Learn Prolog Now! pretty.
 
 https://chrome.google.com/webstore/detail/learn-prolog-now-enhanced/gojfoljalmhohccaganmbgbffmfffhcg
 
