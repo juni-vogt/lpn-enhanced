@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
 /*
-Dear reader,
-this code is about as readable/maintainable as the source of the website.
-Sorry.
+Dear reader, this code was not written to be perfectly maintainable. Sorry.
 */
 
 body  {
@@ -13,7 +11,7 @@ body  {
 	margin: 0;
 }
 
-/* annoying bg */
+/* fix annoying bg */
 div.content {
 	background-image: url(testing-version.png);
 	background-size: 6em !important;
